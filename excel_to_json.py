@@ -19,7 +19,7 @@ def excel_to_json(excel_path, json_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python script.py <excel_file_path> <json_file_path>")
+        print("Usage: python script.py <excel_file_path> <json_file_ppipath>")
     else:
         excel_file_path = sys.argv[1]
         json_file_path = sys.argv[2]
